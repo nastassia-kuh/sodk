@@ -1,0 +1,559 @@
+@media screen and (max-width: 1580px) {
+  .footer, .header {
+    width: 1580px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .footer, .cover, .header {
+    max-width: 100%;
+  }
+  .header {
+    position: relative;
+    padding-right: 110px;
+  }
+  .menu {
+    display: none;
+  }
+  .cover .main_content {
+    padding: 20px 20px 70px 20px;
+  }
+  .cover .main_content .sts_h2_top {
+    font-size: 78px;
+  }
+  .cover .main_content .sts_h1_top {
+    font-size: 82px;
+  }
+  .cover .main_content .sts_h3_top {
+    font-size: 24px;
+  }
+  .cover .main_content .b2_header .h2_b2 {
+    font-size: 44px;
+  }
+  .cover .main_content .repair_menu .h2_repair {
+    font-size: 44px;
+  }
+  .cover .main_content .about_company h2 {
+    font-size: 56px;
+  }
+  .cover .main_content .documents h2 {
+    font-size: 44px;
+  }
+  .top_menu .menu {
+    padding-top: 20px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    background-color: #f4f4f4;
+    z-index: 3;
+    box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.34);
+  }
+  .menu-icon {
+    top: 20px;
+    right: 40px;
+    position: fixed;
+    display: flex;
+    cursor: pointer;
+    fill: #1f1e1e;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+    font-weight: 800;
+  }
+  .menu-icon div {
+    margin-right: 10px;
+  }
+  .menu.open {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu .close {
+    display: block;
+    width: 34px;
+    height: 34px;
+    fill: #1f1e1e;
+    position: absolute;
+    top: 15px;
+    right: 18px;
+  }
+  .cover {
+    justify-content: flex-start;
+  }
+  .cover .leftbar {
+    background-image: none;
+    width: 0;
+  }
+  .cover .leftbar .top_menu h3 {
+    color: #2d2d2d;
+  }
+  .cover .leftbar .top_menu ul li a {
+    color: #2d2d2d;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .menu-icon div {
+    display: none;
+  }
+}
+@media screen and (max-width: 1375px) {
+  .header {
+    justify-content: space-between;
+  }
+  .header div {
+    font-size: 14px;
+  }
+  .header .logo_top {
+    margin-right: -10px;
+  }
+  .header .info_col1 {
+    max-width: 260px;
+  }
+  .header .info_col2 {
+    max-width: 120px;
+    padding: 10px 0 0 0;
+  }
+  .footer {
+    padding: 55px 10px 50px 15px;
+  }
+  .footer .col_logo, .footer .col_menu {
+    margin-right: 15px;
+  }
+  .footer .col_contacts {
+    font-size: 22px;
+  }
+  .footer .col_contacts .email {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .cover {
+    justify-content: center;
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .cover .main_content .banner_top img {
+    max-width: 100%;
+  }
+  .cover .main_content .separator img {
+    max-width: 100%;
+  }
+  .cover .main_content .documents .photos div {
+    max-width: 200px;
+    max-height: 315px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .header .info_col1 {
+    max-width: 215px;
+  }
+  .header .logo_top {
+    width: 200px;
+  }
+  .header .logo_top img {
+    width: 200px;
+  }
+  .header .info_col4 {
+    padding: 10px 0 0 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cover .main_content .sts_h2_top {
+    font-size: 56px;
+  }
+  .cover .main_content .sts_h1_top {
+    font-size: 68px;
+  }
+  .cover .main_content .sts_h3_top {
+    font-size: 20px;
+  }
+  .cover .main_content .b2_header .b2_img {
+    width: 100px;
+    margin-right: 10px;
+  }
+  .cover .main_content .b2_header .b2_img img {
+    width: 100px;
+  }
+  .cover .main_content .b2_header .h2_b2 {
+    font-size: 32px;
+  }
+  .cover .main_content .b2_greed .b2_cell .b2_cell_txt span {
+    font-size: 15px;
+  }
+  .cover .main_content .b2_greed .b2_cell .b2_cell_txt span a {
+    font-size: 15px;
+  }
+  .cover .main_content .repair_menu .h2_repair {
+    font-size: 32px;
+  }
+  .cover .main_content .repair_menu nav ul li a {
+    font-size: 22px;
+  }
+  .cover .main_content .about_company h2 {
+    font-size: 52px;
+    margin-bottom: 30px;
+  }
+  .cover .main_content .about_company .about_greed {
+    grid-gap: 40px 24px;
+  }
+  .cover .main_content .about_company .about_greed .border h3 {
+    font-size: 22px;
+  }
+  .cover .main_content .about_company .about_greed .border h3 span {
+    font-size: 60px;
+  }
+  .cover .main_content .about_company .about_greed .about_description {
+    font-size: 12px;
+    margin-left: 0;
+  }
+  .cover .main_content .documents h2 {
+    font-size: 32px;
+  }
+  .cover .main_content .why_us h2.why_h2 {
+    font-size: 28px;
+  }
+  .cover .main_content .why_us div {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .footer .col_logo .logo_info {
+    font-size: 10px;
+  }
+  .footer .col_logo .logo_bottom {
+    width: 150px;
+  }
+  .footer .col_logo .logo_bottom img {
+    width: 150px;
+  }
+  .footer .col_logo h3, .footer .col_menu h3 {
+    font-size: 14px;
+  }
+  .footer .col_logo nav ul li a, .footer .col_menu nav ul li a {
+    font-size: 14px;
+  }
+  .footer .col_contacts {
+    font-size: 18px;
+  }
+  .footer .col_contacts .email {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 945px) {
+  .header {
+    height: auto;
+    padding-bottom: 5px;
+    padding-right: 90px;
+  }
+  .header .logo_top {
+    height: auto;
+    margin-right: 10px;
+  }
+  .header div {
+    font-size: 12px;
+  }
+  .header .info_col1 {
+    display: none;
+  }
+  .header .info_col2 {
+    max-width: 90px;
+  }
+  .header .menu-icon {
+    right: 15px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .cover .main_content .documents .photos div {
+    max-width: 170px;
+    max-height: 237px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .cover .main_content .sts_h2_top {
+    font-size: 46px;
+  }
+  .cover .main_content .sts_h1_top {
+    font-size: 58px;
+  }
+  .cover .main_content .sts_h3_top {
+    font-size: 14px;
+  }
+  .cover .main_content .b2_header .b2_img {
+    width: 75px;
+  }
+  .cover .main_content .b2_header .b2_img img {
+    width: 75px;
+  }
+  .cover .main_content .b2_header .h2_b2 {
+    font-size: 26px;
+  }
+  .cover .main_content .b2_greed .b2_cell {
+    width: 300px;
+  }
+  .cover .main_content .b2_greed .b2_cell .b2_cell_txt span {
+    font-size: 13px;
+  }
+  .cover .main_content .b2_greed .b2_cell .b2_cell_txt span a {
+    font-size: 13px;
+  }
+  .cover .main_content .b2_greed .b2_cell .b2_cell_txt num {
+    font-size: 18px;
+  }
+  .cover .main_content .repair_menu .h2_repair {
+    font-size: 26px;
+  }
+  .cover .main_content .repair_menu nav ul li a {
+    font-size: 18px;
+  }
+  .cover .main_content .about_company h2 {
+    font-size: 40px;
+  }
+  .cover .main_content .about_company .about_greed .border {
+    font-size: 12px;
+  }
+  .cover .main_content .about_company .about_greed .border h3 {
+    font-size: 16px;
+  }
+  .cover .main_content .about_company .about_greed .border h3 span {
+    font-size: 47px;
+  }
+  .cover .main_content .about_company .about_greed .about_description {
+    font-size: 12px;
+    padding: 15px 20px 10px 20px;
+  }
+  .cover .main_content .documents h2 {
+    font-size: 26px;
+  }
+  .cover .main_content .why_us h2.why_h2 {
+    font-size: 20px;
+  }
+  .cover .main_content .why_us div {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    padding: 25px 10px 50px 15px;
+  }
+  .footer .col_logo .logo_bottom {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  .footer .col_logo .logo_bottom img {
+    width: 100px;
+  }
+  .footer .col_logo h3, .footer .col_menu h3 {
+    font-size: 12px;
+  }
+  .footer .col_logo nav ul li a, .footer .col_menu nav ul li a {
+    font-size: 12px;
+  }
+  .footer .col_contacts {
+    font-size: 14px;
+  }
+  .footer .col_contacts .email {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .cover .main_content .documents .photos div {
+    max-width: 140px;
+    max-height: 198px;
+  }
+}
+@media screen and (max-width: 695px) {
+  .cover .main_content .sts_h2_top {
+    font-size: 38px;
+  }
+  .cover .main_content .sts_h1_top {
+    font-size: 48px;
+  }
+  .cover .main_content .b2_greed .b2_cell {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 685px) {
+  .header {
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+  .header .logo_top {
+    width: 150px;
+  }
+  .header .logo_top img {
+    width: 150px;
+  }
+  .header .info_col2, .header .info_col3, .header .info_col4 {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 660px) {
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer div {
+    max-width: 200px;
+  }
+  .footer .col_contacts {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 605px) {
+  .header {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    padding-right: 90px;
+    flex-wrap: wrap;
+  }
+  .header .info_col1, .header .info_col2, .header .info_col3, .header .info_col4, .header .info_col5 {
+    padding: 0;
+  }
+  .top_menu .menu {
+    padding-top: 60px;
+  }
+  .cover {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .cover .main_content {
+    padding: 3%;
+  }
+  .cover .main_content .sts_h2_top {
+    font-size: 22px;
+  }
+  .cover .main_content .sts_h1_top {
+    font-size: 32px;
+  }
+  .cover .main_content .sts_h3_top {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .cover .main_content .banner_top {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .cover .main_content .b2_header {
+    margin-bottom: 10px;
+  }
+  .cover .main_content .b2_header .b2_img {
+    width: 45px;
+  }
+  .cover .main_content .b2_header .b2_img img {
+    width: 45px;
+  }
+  .cover .main_content .b2_header .b2_h2_cover .h2_b2 {
+    font-size: 19px;
+  }
+  .cover .main_content .b2_greed .b2_cell {
+    margin-right: 0;
+  }
+  .cover .main_content .b2_greed .b2_cell .b2_cell_txt span {
+    font-size: 12px;
+  }
+  .cover .main_content .b2_greed .b2_cell .b2_cell_txt span a {
+    font-size: 12px;
+  }
+  .cover .main_content .b2_greed .b2_cell .b2_cell_txt num {
+    font-size: 16px;
+  }
+  .cover .main_content .repair_menu {
+    margin-bottom: 30px;
+  }
+  .cover .main_content .repair_menu .h2_repair {
+    font-size: 19px;
+  }
+  .cover .main_content .repair_menu nav ul li a {
+    font-size: 12px;
+  }
+  .cover .main_content .separator {
+    height: 25px;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .cover .main_content .about_company {
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .cover .main_content .about_company h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .cover .main_content .about_company .about_greed {
+    grid-template-columns: 300px;
+    justify-content: center;
+    grid-gap: 20px;
+  }
+  .cover .main_content .about_company .about_greed .about_description {
+    grid-column: 1/2;
+    padding: 20px;
+    margin-left: 0;
+  }
+  .cover .main_content .about_company .about_greed .border h3 {
+    font-size: 20px;
+  }
+  .cover .main_content .about_company .about_greed .border h3 span {
+    font-size: 42px;
+  }
+  .cover .main_content .about_company .about_greed .border:before {
+    top: 0;
+    left: 0;
+  }
+  .cover .main_content .about_company .about_greed .border:after {
+    bottom: 0;
+    right: 0;
+  }
+  .cover .main_content .documents {
+    margin-bottom: 10px;
+  }
+  .cover .main_content .documents h2 {
+    font-size: 19px;
+    margin-bottom: 15px;
+  }
+  .cover .main_content .documents .photos {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .cover .main_content .documents .photos div {
+    width: 140px;
+    height: 185px;
+    margin-bottom: 10px;
+  }
+  .cover .main_content .why_us h2.why_h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+  .cover .main_content .why_us div {
+    font-size: 12px;
+  }
+  .footer {
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .footer div {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .footer {
+    flex-direction: column;
+    align-content: center;
+  }
+  .footer .col_logo {
+    order: 4;
+  }
+}
+
+/*# sourceMappingURL=adaptive.css.map */
